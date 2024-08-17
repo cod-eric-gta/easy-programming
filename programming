@@ -1,1 +1,10 @@
-python
+
+hat = input("Do you eat pizza?")
+if hat == "yes":
+    print("You are unhealthy because you eat pizza")
+elif hat == "no":
+    print("You are healthy because you don't eat pizza")
+else:
+    print("please answer yes or no")
+
+
